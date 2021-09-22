@@ -4,21 +4,101 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" type="text/css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,700;1,400&family=Roboto+Condensed:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
     <title>Website Design System</title>
 </head>
 
 <header>
     <h1>My Website Design System</h1>
-    <nav>
+    <!--<nav>
         <ul>
             <li><a href="#">Fonts</a></li>
             <li><a href="#">Colors</a></li>
             <li><a href="#">Styling</a></li>
         </ul>
-    </nav>
+    </nav> -->
 </header>
 
 <body>
-    
+    <section class="colors">
+        <h2>Colors</h2>
+            <div class="color-block seafoam">
+                <p class="title">Seafoam</p>
+                <p>#2B818E</p>
+                <p>Website Background</p>
+            </div>
+            <div class="color-block peach">
+                <p class="title">Peach</p>
+                <p>#F4A15D</p>
+                <p>Site-wide Font</p>
+            </div>
+            <div class="color-block anchor">
+                <p class="title">Anchor</p>
+                <p>#163D57</p>
+                <p>Content Background</p>
+            </div>
+            <div class="color-block navy">
+                <p class="title">Navy</p>
+                <p>#0C2231</p>
+                <p>Border Background</p>
+            </div>
+    </section>
+    <br><br>
+    <section>
+        <h2>Fonts</h2>
+            <div class="show-font roboto-condensed">
+                <h3>Roboto Condensed</h3>
+                <p class="standard">The quick brown fox jumps over the lazy dog.</p>
+                <p class="bold">The quick brown fox jumps over the lazy dog.</p>
+                <p class="italic">The quick brown fox jumps over the lazy dog.</p>
+                <p class="underline">The quick brown fox jumps over the lazy dog.</p>
+            </div>
+            <div class="show-font cabin">
+                <h3>Cabin</h3>
+                <p class="standard">The quick brown fox jumps over the lazy dog.</p>
+                <p class="bold">The quick brown fox jumps over the lazy dog.</p>
+                <p class="italic">The quick brown fox jumps over the lazy dog.</p>
+                <p class="underline">The quick brown fox jumps over the lazy dog.</p>
+            </div>
+            <div class="show-font monospace">
+                <h3>Monospace</h3>
+                <p class="standard">The quick brown fox jumps over the lazy dog.</p>
+                <p class="bold">The quick brown fox jumps over the lazy dog.</p>
+                <p class="italic">The quick brown fox jumps over the lazy dog.</p>
+                <p class="underline">The quick brown fox jumps over the lazy dog.</p>
+            </div>
+    </section>
+    <br><br>
+    <section class="text-styles">
+        <h2>Text Styles</h2>
+            <div class="h1">
+                <p class="H">H1: Main Page Heading</p>
+                <ul>
+                    <li>Font-weight: 700 (bold)</li>
+                    <li>Font-size: 60px</li>
+                    <li>Font-family: Roboto Condensed</li>
+                </ul>
+            </div>
+            <div class="h2">
+                <h2>H2: Subheading</h2>
+                <ul>
+                    <li>Font-weight: 700 (bold)</li>
+                    <li>Font-size: 40px</li>
+                    <li>Font-family: Cabin</li>
+                </ul>
+            </div>
+            <div>
+                <p class="p">P: Paragraph</p>
+                <ul>
+                    <li>Font-weight: 400</li>
+                    <li>Font-size: 18px</li>
+                    <li>Font-family: Cabin</li>
+                </ul>
+            </div>
+    </section>
+    <br><br>
 </body>
 </html>
