@@ -36,6 +36,7 @@ section {
     background-color: #163D57;
     border: 1px solid #0C2231;
     border-radius: 15px;
+    text-align: center;
 }
 
 h2 {
@@ -126,7 +127,12 @@ h3,
 
 .text-styles li {
     font-size: 18px;
-    margin-left: 3%;
+}
+
+.text-styles ul {
+    list-style-position: inside;
+    text-align: justify;
+    display: inline-block;
 }
 
 .H {
